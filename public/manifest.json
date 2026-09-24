@@ -1,0 +1,35 @@
+{
+  "name": "GénéaPro - Arbre Généalogique",
+  "short_name": "GénéaPro",
+  "description": "Application de généalogie multi-famille avec arbre dynamique, médias et collaboration.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr",
+  "categories": ["lifestyle", "social"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mon Arbre",
+      "short_name": "Arbre",
+      "url": "/tree",
+      "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Membres",
+      "short_name": "Membres",
+      "url": "/members",
+      "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
